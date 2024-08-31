@@ -1,0 +1,8 @@
+services:
+  # server:
+  #   image: nginx
+  client:
+    build:
+      context: .
+      dockerfile: issue1884/Dockerfile
+    # depends_on: ["server"]
